@@ -31,6 +31,7 @@ public class LambdaIntroduce {
         Runnable run2 = () -> {
             System.out.println(22);
         };
+        run2.run();
 
     }
 }
